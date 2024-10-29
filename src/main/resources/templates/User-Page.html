@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Test Thymeleaf</title>
+  </head>
+  <body>
+    <h1>Test Thymeleaf</h1>
+    <p th:text="${allGmail}">return object</p>
+    <table>
+      <th:block th:each="gmail : ${allGmail}">
+        <tr>
+          <td th:text="${gmail}">...</td>
+        </tr>
+      </th:block>
+    </table>
+    
+  </body>
+</html>

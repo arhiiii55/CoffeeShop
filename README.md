@@ -1,2 +1,1 @@
-# CoffeeShop
-Spring boot.
+# SpringBootJPACoffee
